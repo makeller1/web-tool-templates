@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Drag and Drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>File Upload</h1>
+    <div id="drop-area">
+        Upload a CSV file
+        <input type="file" id="fileElem" accept=".csv" style="display:none;">
+    </div>
+    
+    <div id="file-info">
+        <h3>File Name:</h3>
+        <p id="file-name"></p>
+        <h3>CSV Headers:</h3>
+        <p id="file-headers"></p>
+    </div>    
+
+  </div>
+
+<script src="csv-input.js"></script>
+
+</body>
+</html>
